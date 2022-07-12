@@ -1,11 +1,9 @@
-# CS370-Current-Emerging-Trends-in-CS
+# Pirate AI : Machine Learning Portfolio
 
-- Briefly explain the work that you did on this project: What code were you given? What code did you create yourself?
 - This project included most of the code present in the ipynb file. I was tasked with completing the Q-Training Algorithm code block. The goal of the Q-learning implementation was to find the best possible navigation sequence for the pirate to take to the treasure to beat the player 100% of the time. This was implemented in Python using the Keras library, and the neural network is built using a sequential model. The learning stage is managed in epochs that run through the following logic: The agent is randomly assigned and set into a cell. Next, the agent runs through episodes, which is an instance of the game, until ‘game over’. During an episode, the agent identifies its valid actions and either exploit or explores one of them based on the 10% probability. If it exploits, the neural network outputs the Q-value of the valid actions and the agent chooses the one with the largest reward. If it explores, the agent randomly selects one of its valid actions. Once the action is performed, a reward, game status, and new environmental state are given. The results of that episode, the agent's experience, are remembered. Finally, the neural network is trained with these new results that will help in the future with the help of the dynamic Q-value. This is repeated over each epoch as the agent gradually improves its win rate.
-- Connect your learning from throughout this course to the larger field of computer science:
-- What do computer scientists do and why does it matter?
+
 - Computer scientists try to make tasks easier, automate activities, solve and understand difficult questions and connect humans with each other and machines. These things are accomplished by writing software and applications for computers and other technology. This all matters because the foundation of modern society rests on this technology. Without computer scientists, progression stagnates and the quality of our lives significantly deteriorates.
-- How do I approach a problem as a computer scientist?
+
 - I like to approach problems with the mindset that they are already solved, I just have to weave through their complexity to solve the puzzle. Programming is a very flexible tool that excels at fixing even seemingly impossible issues, the key is to find the best way to the answer.
-- What are my ethical responsibilities to the end-user and the organization?
+
 - The ethical responsibilities of a computer scientist are best reflected through the Code of Ethics set by the ACM, these being to contribute to society and human well-being, Avoid harm to others, Be honest and trustworthy, Give proper credit for intellectual property, Respect the privacy of others, and honor confidentiality. I will try my hardest to be a fantastic human being and uphold these responsibilities throughout my career as a computer scientist.
